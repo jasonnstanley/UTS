@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.force-graph-container canvas { display: block; user-select: none; outline: none; -webkit-tap-highlight-color: transparent; }
+
+.force-graph-container .clickable { cursor: pointer; }
+
+.force-graph-container .grabbable { cursor: -webkit-grab; }
+
+.force-graph-container .grabbable:active { cursor: -webkit-grabbing; }
